@@ -102,6 +102,17 @@ img {
   max-width: 100%;
 }
 
+.video iframe {
+  display: flex;
+  align-items: center;
+  margin:0;
+  padding:0;
+  width: 100%; /* El video ocupará todo el ancho del contenedor */
+  height: 100%; /* El video ocupará todo el alto del contenedor */
+  
+}
+
+
 button,
 textarea,
 input {
