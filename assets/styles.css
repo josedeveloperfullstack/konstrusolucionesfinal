@@ -1706,6 +1706,13 @@ table {
   .accounts__container {
     grid-template-columns: 3fr 9fr;
   }
+
+  .home__img {
+    justify-self: center;
+  }
+
+
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -1857,6 +1864,9 @@ table {
   .details__action {
     margin-bottom: 2.75rem;
   }
+  .home__img {
+    justify-self: center;
+  }
 }
 
 /* For medium devices */
@@ -1942,6 +1952,15 @@ table {
   .table tr td:nth-child(6) {
     width: 100px;
   }
+  .video iframe {
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding:0;
+    width: 100%; /* El video ocupará todo el ancho del contenedor */
+    height: 100%; /* El video ocupará todo el alto del contenedor */
+    
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1965,6 +1984,7 @@ table {
   .compare__table tr td {
     display: block;
   }
+  
 }
 
 /* For small devices */
