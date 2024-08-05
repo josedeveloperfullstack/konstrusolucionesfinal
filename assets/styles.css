@@ -2057,6 +2057,7 @@ table {
   .home__img {
     justify-content: center;
     width: auto;
+    box-shadow: #999;
   }
 }
 
