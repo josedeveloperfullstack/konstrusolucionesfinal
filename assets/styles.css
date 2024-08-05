@@ -2054,6 +2054,9 @@ table {
     flex-direction: column;
     align-items: center;
   }
+  .home__img {
+    justify-self: center;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -2089,5 +2092,8 @@ table {
   .cart__total-table tr td {
     display: block;
     width: 100%;
+  }
+  .home__img {
+    justify-self: center;
   }
 }
