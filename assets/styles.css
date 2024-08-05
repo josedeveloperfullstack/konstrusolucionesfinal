@@ -2055,7 +2055,8 @@ table {
     align-items: center;
   }
   .home__img {
-    justify-self: center;
+    justify-content: center;
+    width: auto;
   }
 }
 
@@ -2094,6 +2095,8 @@ table {
     width: 100%;
   }
   .home__img {
-    justify-self: center;
+    justify-content: center;
+    width: auto;
+    
   }
 }
